@@ -1,0 +1,27 @@
+<mj-section background-color="#8fb2e3">
+
+    <mj-column>
+        <mj-text align="left"> Column 1 </mj-text>
+    </mj-column>
+        
+    <mj-column>
+        <mj-text align="right"> Column 2 </mj-text>
+    </mj-column>
+</mj-section>
+
+<mj-section background-color="#a9c5ea">
+    <mj-column>
+        <mj-text align="left"> Texto de la cabezera </mj-text>
+    </mj-column>
+    <mj-column>
+        <mj-text align="right"><a href="email-permalink"> Poner un link </a></mj-text>
+    </mj-column>
+</mj-section>
+
+<mj-section background-color="#c2d9f1">
+    <mj-column>
+        <mj-image src="../images/mjml_image.png"></mj-image>
+        <mj-text align="center"> Imagen aqui </mj-text>
+        <mj-button background-color="#695394"> Descúbrelo </mj-button>
+    </mj-column>
+</mj-section>
