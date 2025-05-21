@@ -1,22 +1,97 @@
 <mjml>
-    <mj-head>
-        <mj-attributes>
-            
-        </mj-attributes>
-    </mj-head>
+  <mj-head>
+    <mj-style>
+        @font-face {
+        font-family: 'Poetsen_One';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/poetsenone/v3/ke8hOgIaMUB37xCgvCntWuIoofM.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+        
+      @font-face {
+      font-family: 'Abel';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE2V9BPQ.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    </mj-style>
+  </mj-head>
+
     <mj-body>
+
         <mj-section background-color="#aa212c">
-            <mj-column>
-                <mj-image src="../images/Cabecera_MotoGP.jpg"></mj-image>
-            </mj-column>
+          <mj-column>
+              <mj-image src="/images/Cabecera_MotoGP.jpg"></mj-image>
+          </mj-column>
         </mj-section>
+
         <mj-section background-color="#aa212c">
-            <mj-column>
-                <mj-text align="center">
-                <h1>¡Cheste, Allá vamos!</h1>
-                <h1>Sorteamos 2 entradas para el GP de motociclismo de Cheste</h1>
-                </mj-text>
-            </mj-column>
+          <mj-column>
+              <mj-text font-size="24px" font-family="Poetsen_One" align="center">
+              <h1>¡CHESTE, ALLÁ VAMOS!</h1>
+              &nbsp
+              <h1>SORTEAMOS 2 ENTRADAS PARA EL GP DE MOTOCICLISMO DE CHESTE</h1>
+              </mj-text>
+          </mj-column>
         </mj-section>
+
+        <mj-section background-color="#aa212c">
+          <mj-group>
+            <mj-column>
+              <mj-image align="right" width="500px" height="200px" padding="0" src="/images/MotoRoja.png" />
+            </mj-column>
+
+            <mj-column>
+              <mj-text align="right" font-family="Abel">
+                <h2>Si completas el formulario de la feria antes del 1 de septiembre participarás automáticamente a este magnífico sorteo para ir a ver el Gran Premio de Cheste</h2> 
+              </mj-text>
+            </mj-column>
+
+          </mj-group>
+        </mj-section>
+
+        <mj-section background-color="#aa212c">
+          <mj-column>
+              <mj-button width="150px" font-family="Poetsen_One" background-color="black"> Formulario <br> Aquí </mj-button>
+          </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#aa212c">
+          <mj-group width="600px">
+            <mj-column>
+              <mj-image align="left" width="300px" height="200px" padding="0" src="/images/Ducati.png" />
+            </mj-column>
+            
+            <mj-column >
+              <mj-image align="right" width="400px" height="200px" padding="0" src="/images/MotoRojaFrente.png" /> 
+            </mj-column>
+          </mj-group>
+        </mj-section>
+
+        <mj-section background-color="#d9d9d9">
+          <mj-column>
+              <mj-text font-size="24px" font-family="Poetsen_One" align="center">
+              <h1>¡MIRA QUE CIRCUITAZO!</h1>
+              <h1>👇</h1>
+              </mj-text>
+              <mj-image src="/images/MapaCheste.png"></mj-image>
+          </mj-column>
+        </mj-section>
+
+        <mj-section>
+          <mj-column>
+            <mj-text align="center" font-size="14px" color="#555555">
+              © Feria Valencia todos los derechos reservados
+            </mj-text>
+            <mj-text align="center" font-size="12px" color="#999999">
+              <a href="https://www.feriavalencia.com/en/avisos-legales/" style="color: #999999;">Avisos Legales</a> | 
+              <a href="https://www.feriavalencia.com/politica-de-privacidad/" style="color: #999999;">Política de Privacidad</a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
     </mj-body>
 </mjml>

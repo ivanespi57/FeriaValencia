@@ -13,9 +13,7 @@
             <mj-column>
                 <mj-text align="right"> Column 2 </mj-text>
             </mj-column>
-        </mj-section>
-
-        <mj-section background-color="#a9c5ea">
+        
             <mj-column>
                 <mj-text align="left"> Texto de la cabezera </mj-text>
             </mj-column>
