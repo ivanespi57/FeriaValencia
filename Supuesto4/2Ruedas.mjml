@@ -24,74 +24,85 @@
 
         <mj-section background-color="#aa212c">
           <mj-column>
-              <mj-image src="/images/Cabecera_MotoGP.jpg"></mj-image>
+            <mj-image src="/images/Cabecera_MotoGP.jpg"></mj-image>
           </mj-column>
         </mj-section>
 
         <mj-section background-color="#aa212c">
           <mj-column>
-              <mj-text font-size="24px" font-family="Poetsen_One" align="center">
-              <h1>¡CHESTE, ALLÁ VAMOS!</h1>
-              &nbsp
-              <h1>SORTEAMOS 2 ENTRADAS PARA EL GP DE MOTOCICLISMO DE CHESTE</h1>
-              </mj-text>
+            <mj-text font-size="50px" font-family="Poetsen_One" align="center">¡CHESTE, ALLÁ VAMOS!</mj-text>
+            <mj-spacer height="30px" />
+            <mj-text font-size="50px" font-family="Poetsen_One" align="center">SORTEAMOS 2 ENTRADAS PARA EL GP DE MOTOCICLISMO DE CHESTE</mj-text>
           </mj-column>
         </mj-section>
 
         <mj-section background-color="#aa212c">
-          <mj-group>
-            <mj-column>
-              <mj-image align="right" width="500px" height="200px" padding="0" src="/images/MotoRoja.png" />
-            </mj-column>
+          
+          <mj-column>
+            <mj-image align="right" width="500px" height="200px" padding="0" src="/images/MotoRoja.png" />
+          </mj-column>
 
-            <mj-column>
-              <mj-text align="right" font-family="Abel">
-                <h2>Si completas el formulario de la feria antes del 1 de septiembre participarás automáticamente a este magnífico sorteo para ir a ver el Gran Premio de Cheste</h2> 
-              </mj-text>
-            </mj-column>
+          <mj-column>
+            <mj-text font-size="20px" align="right" font-family="Abel">
+              <p>Si completas el formulario de la feria antes del 1 de septiembre participarás automáticamente a este magnífico sorteo para ir a ver el Gran Premio de Cheste</p> 
+            </mj-text>
+          </mj-column>
 
-          </mj-group>
+          
         </mj-section>
 
         <mj-section background-color="#aa212c">
           <mj-column>
-              <mj-button width="150px" font-family="Poetsen_One" background-color="black"> Formulario <br> Aquí </mj-button>
+            <mj-button width="150px" font-family="Poetsen_One" background-color="black"> Formulario <br> Aquí </mj-button>
           </mj-column>
         </mj-section>
 
         <mj-section background-color="#aa212c">
-          <mj-group width="600px">
-            <mj-column>
-              <mj-image align="left" width="300px" height="200px" padding="0" src="/images/Ducati.png" />
-            </mj-column>
-            
-            <mj-column >
-              <mj-image align="right" width="400px" height="200px" padding="0" src="/images/MotoRojaFrente.png" /> 
-            </mj-column>
-          </mj-group>
+          
+          <mj-column>
+            <mj-image align="left" width="300px" height="200px" padding="0" src="/images/Ducati.png" />
+          </mj-column>
+          
+          <mj-column >
+            <mj-image align="right" width="500px" height="200px" padding="0" src="/images/MotoRojaFrente.png" /> 
+          </mj-column>
+          
         </mj-section>
 
         <mj-section background-color="#d9d9d9">
           <mj-column>
-              <mj-text font-size="24px" font-family="Poetsen_One" align="center">
-              <h1>¡MIRA QUE CIRCUITAZO!</h1>
-              <h1>👇</h1>
-              </mj-text>
-              <mj-image src="/images/MapaCheste.png"></mj-image>
+            <mj-text font-size="50px" font-family="Poetsen_One" align="center">
+            <p>¡MIRA QUE CIRCUITAZO!</p>
+            <p>👇</p>
+            </mj-text>
+            <mj-image src="/images/MapaCheste.png"></mj-image>
           </mj-column>
         </mj-section>
-
-        <mj-section>
+        
+        <mj-section background-color="#d9d9d9">
           <mj-column>
-            <mj-text align="center" font-size="14px" color="#555555">
+            <mj-social icon-size="20px" mode="horizontal">
+              <mj-social-element name="facebook" href="https://www.facebook.com/feriavalencia/"></mj-social-element>
+              <mj-social-element name="x" href="https://twitter.com/feria_valencia"></mj-social-element>
+              <mj-social-element name="instagram" href="https://www.instagram.com/feriavalencia/"></mj-social-element>
+              <mj-social-element name="youtube" href="https://www.youtube.com/channel/UC2c4KYjrdeyt-W2ZH86Bsgw"></mj-social-element>
+              <mj-social-element name="linkedin" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F318933%2Fadmin%2F"></mj-social-element>
+            </mj-social>
+          </mj-column>
+        </mj-section>
+        
+        <mj-section background-color="black">
+          <mj-column>
+            <mj-text align="center" font-size="14px" color="rgb(255, 255, 255)">
               © Feria Valencia todos los derechos reservados
             </mj-text>
             <mj-text align="center" font-size="12px" color="#999999">
-              <a href="https://www.feriavalencia.com/en/avisos-legales/" style="color: #999999;">Avisos Legales</a> | 
-              <a href="https://www.feriavalencia.com/politica-de-privacidad/" style="color: #999999;">Política de Privacidad</a>
+              <a href="https://www.feriavalencia.com/en/avisos-legales/" style="color:rgb(255, 255, 255);">Avisos Legales</a> | 
+              <a href="https://www.feriavalencia.com/politica-de-privacidad/" style="color:rgb(255, 255, 255);">Política de Privacidad</a>
             </mj-text>
           </mj-column>
         </mj-section>
+
 
     </mj-body>
 </mjml>
