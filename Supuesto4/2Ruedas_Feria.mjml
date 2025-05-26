@@ -8,6 +8,22 @@
 
 	<mj-style>
 
+		@font-face {
+			font-family: 'Poetsen_One';
+			font-style: normal;
+			font-weight: 400;
+			src: url(https://fonts.gstatic.com/s/poetsenone/v3/ke8hOgIaMUB37xCgvCntWuIoofM.woff2) format('woff2');
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+		}
+		
+		@font-face {
+			font-family: 'Abel';
+			font-style: normal;
+			font-weight: 400;
+			src: url(https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE2V9BPQ.woff2) format('woff2');
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+		}
+
 		@media only screen and (max-width:480px) {
 			.movil_no {
 				display: none !important;
@@ -37,13 +53,13 @@
 		<mj-section background-color="#aa212c">
 
 			<mj-column>
-			<mj-text font-size="40px" font-family="Arial" 
-			align="center"><strong>¡CHESTE, ALLÁ VAMOS!</mj-text>
+			<mj-text font-size="50px" font-family="Poetsen_One" 
+			align="center">¡CHESTE, ALLÁ VAMOS!</mj-text>
 
 			<mj-spacer height="30px" />
 
-			<mj-text font-size="40px" font-family="Arial" 
-			align="center"><strong>SORTEAMOS 2 ENTRADAS PARA EL GP DE MOTOCICLISMO DE CHESTE</mj-text>
+			<mj-text font-size="50px" font-family="Poetsen_One" 
+			align="center">SORTEAMOS 2 ENTRADAS PARA EL GP DE MOTOCICLISMO DE CHESTE</mj-text>
 			</mj-column>
 
 		</mj-section>
@@ -58,8 +74,7 @@
 			</mj-column>
 
 			<mj-column>
-			<mj-text font-size="17px" align="right" font-family="Arial"
-				padding-top="40px">
+			<mj-text font-size="20px" align="right" font-family="Abel">
 				<p>Si completas el formulario de la feria 
 				antes del 1 de septiembre participarás automáticamente 
 				a este magnífico sorteo para ir a ver el Gran Premio de Cheste</p> 
@@ -72,7 +87,7 @@
 
 			<mj-column>
 			<mj-button href="https://www.feriavalencia.com/" 
-			border-radius="30px" width="150px" font-family="Arial" 
+			border-radius="30px" width="150px" font-family="Poetsen_One" 
 			background-color="black"> Formulario <br> Aquí </mj-button>
 			</mj-column>
 
@@ -99,8 +114,8 @@
 		<mj-section background-color="#d9d9d9">
 
 			<mj-column>	
-			<mj-text font-size="40px" font-family="Arial" align="center">
-			<p><strong>¡MIRA QUE CIRCUITAZO!</p>
+			<mj-text font-size="50px" font-family="Poetsen_One" align="center">
+			<p>¡MIRA QUE CIRCUITAZO!</p>
 			<p>👇</p>
 			</mj-text>
 			<!--No se pueden ver la imagen si no tengo el servidor de AWS activo-->
