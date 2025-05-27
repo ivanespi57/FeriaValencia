@@ -71,7 +71,7 @@
 		<mj-section background-color="#aa212c">
 
 			<mj-column>
-			<mj-button href="https://www.feriavalencia.com/" 
+			<mj-button href="https://forms.gle/h3dn7He1TQj51bPB8" 
 			border-radius="30px" width="150px" font-family="Arial" 
 			background-color="black"> Formulario <br> Aquí </mj-button>
 			</mj-column>
