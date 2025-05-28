@@ -1,6 +1,6 @@
 # BBDD_feria
 
-La carpeta **BBDD_feria** está dedicada a la gestión de la base de datos de suscriptores y participantes de la campaña "2 Ruedas" de la Feria Valencia. Aquí encontrarás todo lo necesario para crear, poblar, consultar y documentar la base de datos utilizada en la campaña, así como herramientas para automatizar tareas comunes.
+La carpeta **BBDD_feria** está dedicada a la gestión de la base de datos de suscriptores y participantes de la campaña "2 Ruedas" de la Feria Valencia. Aquí encontrarás todo lo necesario para crear, poblar y documentar la base de datos utilizada en la campaña, así como herramientas para automatizar tareas comunes.
 
 ---
 
@@ -32,8 +32,6 @@ Este archivo es un **script en bash** diseñado para automatizar tareas relacion
 
 **¿Qué puede hacer este script?**
 - Importar automáticamente el archivo SQL para crear la base de datos.
-- Realizar consultas frecuentes (por ejemplo, listar todos los suscriptores, buscar por nombre o email, contar el número de registros, etc.).
-- Exportar datos a otros formatos si es necesario.
 - Facilitar la administración sin necesidad de acceder manualmente al gestor de bases de datos.
 
 **¿Cómo se utiliza?**
@@ -55,7 +53,6 @@ Esta carpeta contiene **capturas de pantalla** que documentan visualmente el pro
 
 **¿Qué encontrarás aquí?**
 - Imágenes del proceso de creación de la base de datos.
-- Ejemplos de inserción y consulta de datos.
 - Resultados de la ejecución de los scripts.
 - Cualquier otro paso relevante documentado gráficamente.
 
