@@ -1,6 +1,6 @@
 # Automatizar_Emails
 
-Bienvenido/a a la carpeta de automatización de emails. Aquí encontrarás todo lo necesario para enviar correos personalizados de forma sencilla y rápida a una lista de personas, usando plantillas atractivas hechas con MJML.
+Bienvenido/a a la carpeta de automatización de emails. Aquí encontrarás todo lo necesario para enviar correos personalizados de forma sencilla y rápida a una lista de personas.
 
 ## ¿Qué hay en esta carpeta?
 
