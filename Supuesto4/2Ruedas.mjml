@@ -28,7 +28,7 @@
 		
 			<mj-column>
 			<!--No se pueden ver la imagen si no tengo el servidor de AWS activo-->
-			<mj-image href="https://2ruedas.es/" 
+			<mj-image href="https://dosruedas.feriavalencia.com/" 
 			src="http://3.214.179.234/Cabecera_MotoGP.jpg"></mj-image> 
 			</mj-column>
 
@@ -37,12 +37,12 @@
 		<mj-section background-color="#aa212c">
 
 			<mj-column>
-			<mj-text font-size="40px" font-family="Arial" 
+			<mj-text font-size="42px" font-family="Arial" 
 			align="center"><strong>¡CHESTE, ALLÁ VAMOS!</mj-text>
 
 			<mj-spacer height="30px" />
 
-			<mj-text font-size="40px" font-family="Arial" 
+			<mj-text font-size="30px" font-family="Arial" 
 			align="center"><strong>SORTEAMOS 2 ENTRADAS PARA EL GP DE MOTOCICLISMO DE CHESTE</mj-text>
 			</mj-column>
 
@@ -52,19 +52,19 @@
 			
 			<mj-column>
 			<!--No se pueden ver la imagen si no tengo el servidor de AWS activo-->
-			<mj-image href="https://2ruedas.es/" 
-			align="right" width="500px" height="200px" padding="0" 
+			<mj-image href="https://dosruedas.feriavalencia.com/" 
+			align="center" width="500px" height="200px" padding="0" 
 			src="http://3.214.179.234/MotoRoja.png" />
 			</mj-column>
 
 			<mj-column>
 			<mj-text font-size="17px" align="right" font-family="Arial"
-				padding-top="40px">
+				padding-top="40px" line-height="1.4">
 				<p>Si completas el formulario de la feria 
 				antes del 1 de septiembre participarás automáticamente 
-				a este magnífico sorteo para ir a ver el Gran Premio de Cheste</p> 
+				a este magnífico sorteo para ir a ver el Gran Premio de Cheste.</p> 
 			</mj-text>
-			</mj-column>
+		</mj-column>
 
 		</mj-section>
 
@@ -82,14 +82,14 @@
 
 			<!--No se pueden ver la imagen si no tengo el servidor de AWS activo-->
 			<mj-column vertical-align="bottom" width="50%">
-			<mj-image href="https://2ruedas.es/" 
+			<mj-image href="https://dosruedas.feriavalencia.com/" 
 			align="center" width="250px" height="200px" padding="0px" 
 			src="http://3.214.179.234/Marc.png" />
 			</mj-column>
 
 			<!--No se pueden ver la imagen si no tengo el servidor de AWS activo-->
 			<mj-column width="50%">
-			<mj-image href="https://2ruedas.es/" 
+			<mj-image href="https://dosruedas.feriavalencia.com/"
 			css-class="movil_no" align="right" width="200px" 
 			height="200px" src="http://3.214.179.234/casco.png" /> 
 			</mj-column>
@@ -104,7 +104,7 @@
 			<p>👇</p>
 			</mj-text>
 			<!--No se pueden ver la imagen si no tengo el servidor de AWS activo-->
-			<mj-image href="https://2ruedas.es/" 
+			<mj-image href="https://www.circuitricardotormo.com/"
 			css-class="img" src="http://3.214.179.234/MapaCheste.png"></mj-image>
 			</mj-column>
 
