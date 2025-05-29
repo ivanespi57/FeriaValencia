@@ -1,0 +1,279 @@
+<mjml>
+    <mj-head>
+        <mj-title>¡Hola, {{nombre}}!</mj-title>
+
+	    <mj-attributes>
+            <mj-section padding="0px"/>
+            <mj-image padding="0px"/>
+	    </mj-attributes>
+    </mj-head>
+
+    <mj-body>
+        <mj-section background-color="#386944">
+            <mj-column>
+
+                <mj-image href="https://www.saloncomicvalencia.com/" 
+			    src="/images/SalonComic.jpg"></mj-image> 
+
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#eead2b">
+
+			<mj-column>
+			<mj-text font-size="35px" font-family="Arial" 
+			align="center"><strong>🎉¡Vuelve el gran evento del cómic, 
+            manga y cosplay!</mj-text>
+
+		</mj-section>
+
+        <mj-section background-color="#eead2b">
+			
+			<mj-column>
+
+                <mj-image href="https://www.saloncomicvalencia.com/" 
+                align="center" padding-left="30px" padding-bottom="30px"
+                padding-top="30px" padding-right="30px" src="/images/entrada.jpg" />
+                </mj-column>
+
+			<mj-column>
+
+                <mj-text font-size="17px" align="right" font-family="Arial"
+                    padding-top="45px" line-height="1.8">
+                    <p>Sumérgete en el mundo del cómic con cientos de stands, 
+                    talleres, exposiciones, concursos y firmas de autores.</p> 
+                </mj-text>
+
+		    </mj-column>
+
+		</mj-section>
+
+        <mj-section background-color="#386944">
+			
+			<mj-column>
+
+                <mj-text font-size="30px" font-family="Arial"
+                align="left" padding-bottom="0px">
+                <p><strong>👾 Zona Asia<p>
+                </mj-text>
+                
+                <mj-text font-size="17px" align="left" font-family="Arial"
+                    padding-top="0px" line-height="1.8">
+                    <p>Un espacio dedicado a la cultura asiática,
+                    podrás sumergirte en el mundo del manga y mucho más!</p> 
+                </mj-text>
+                
+            </mj-column>
+
+			<mj-column>
+
+                <mj-image href="https://www.saloncomicvalencia.com/" 
+                align="center" padding-left="30px" padding-bottom="25px"
+                padding-top="30px" padding-right="30px" src="/images/goku.jpg" />
+		    
+            </mj-column>
+
+		</mj-section>
+
+        <mj-section background-color="#eead2b">
+			
+			<mj-column>
+
+                <mj-image href="https://www.saloncomicvalencia.com/" 
+                align="center" padding-left="30px" padding-bottom="30px"
+                padding-top="30px" padding-right="30px" src="/images/alley.jpg" />
+            
+            </mj-column>
+
+			<mj-column>
+                <mj-text font-size="30px" font-family="Arial"
+                    align="right" padding-bottom="0px" padding-top="32px">
+                    <p><strong>🖌️ Artist Alley<p>
+                </mj-text>
+                
+                <mj-text font-size="17px" align="right" font-family="Arial"
+                    padding-top="0px" line-height="1.8">
+                    <p>Conoce a dibujantes y llévate una 
+                    ilustración exclusiva.</p> 
+                </mj-text>
+                
+            </mj-column>
+
+		</mj-section>
+
+        <mj-section background-color="#386944">
+
+			<mj-column>
+			<mj-text font-size="40px" font-family="Arial" padding-bottom="30px"
+			padding-top="30px" align="center"><strong>Noticias destacadas</mj-text>
+
+		</mj-section>
+
+        <mj-section background-color="#eead2b">
+
+            <mj-column>
+
+                <mj-text font-size="30px" font-family="Arial"
+                    align="left" padding-bottom="0px" padding-top="10px">
+                    <p><strong>Exposición de Núria Tamarit<p>
+                </mj-text>
+
+            </mj-column>
+            
+        </mj-section>
+        <mj-section background-color="#eead2b">
+
+            <mj-column>
+                
+                
+                <mj-text font-size="17px" align="left" font-family="Arial"
+                    padding-top="36px" padding-bottom="30px" 
+                    padding-right="0px" padding-left="30px" line-height="1.8">
+                    <p>Recorre su trayectoria a través de una selección de originales e 
+                    impresionantes obras como <i>Dos monedas</i> o <i>Loba Boreal</i>.</p> 
+                </mj-text>
+                
+            </mj-column>
+
+            <mj-column>
+
+                <mj-image href="https://www.saloncomicvalencia.com/" 
+                align="center" padding-top="30px" padding-bottom="30px" 
+                padding-right="30px" padding-left="0px" width="130px"
+                src="/images/nuria-tamarit.jpg" />
+           
+            </mj-column>
+
+        </mj-section>
+
+        <mj-section background-color="#386944">
+
+            <mj-column>
+
+                <mj-text font-size="30px" font-family="Arial"
+                    align="right" padding-bottom="0px" padding-top="10px">
+                    <p><strong>Exposición “Clásicos del cómic”<p>
+                </mj-text>
+
+            </mj-column>
+            
+        </mj-section>
+
+        <mj-section background-color="#386944">
+
+            <mj-column>
+                
+                <mj-image href="https://www.saloncomicvalencia.com/" 
+                align="center" padding-top="30px" padding-bottom="30px" 
+                padding-right="50px" width="160px"
+                src="/images/clasico.jpg" />
+                
+                
+            </mj-column>
+
+            <mj-column>
+
+                <mj-text font-size="17px" align="right" font-family="Arial"
+                    padding-top="36px" padding-bottom="30px" 
+                    padding-right="40px" padding-left="0px" line-height="1.8">
+                    <p>Una selección de páginas de autores 
+                    fundamentales que marcaron el nacimiento 
+                    del cómic, como Harold Foster y Alex Raymond.</p> 
+                </mj-text>
+           
+            </mj-column>
+
+        </mj-section>
+
+        <mj-section background-color="#eead2b">
+
+			<mj-column>
+			<mj-text font-size="40px" font-family="Arial" 
+			align="center"><strong>Promociones Especiales</mj-text>
+
+            <mj-text font-size="17px" line-height="2.2" font-family="Arial"
+            padding-left="50px" padding-right="40px">
+                <ul>
+                    <li>Entrada gratuita para menores de 8 años.</li>
+                    <li>Descuento del 20% si vienes disfrazado el viernes 28 de febrero.</li>
+                    <li>Sorteos diarios de cómics y merchandising exclusivo.</li>
+                </ul>
+            </mj-text>
+
+		</mj-section>
+
+        <mj-section background-color="black">
+
+			<mj-column>
+
+                <mj-text font-size="12px" font-family="Arial"
+                color="#FFFFFF" padding-top="0px" padding-bottom="0px"
+                align="center">🔗 Más info: <a href="https://www.saloncomicvalencia.com/">salondelcomicvalencia.com</a> – @ComicValencia
+                </mj-text>
+            
+            </mj-column>
+
+		</mj-section>
+
+        <mj-section background-color="black">
+            
+            <mj-column>
+
+                <mj-text font-size="12px" font-family="Arial"
+                color="#FFFFFF"
+                align="center">Síguenos:
+                </mj-text>
+
+                <mj-social icon-size="20px" mode="horizontal">
+				<mj-social-element name="facebook" 
+				href="https://www.facebook.com/feriavalencia/"></mj-social-element>
+
+				<mj-social-element name="x" 
+				href="https://twitter.com/feria_valencia"></mj-social-element>
+
+				<mj-social-element name="instagram" 
+				href="https://www.instagram.com/feriavalencia/"></mj-social-element>
+
+				<mj-social-element name="youtube" 
+				href="https://www.youtube.com/channel/UC2c4KYjrdeyt-W2ZH86Bsgw"></mj-social-element>
+
+				<mj-social-element name="linkedin" 
+				href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F318933%2Fadmin%2F"></mj-social-element>
+				</mj-social>
+
+            </mj-column>
+
+            <mj-column>
+
+                <mj-text font-size="12px" font-family="Arial"
+                    color="#FFFFFF"
+                    align="center">Legales
+                </mj-text>
+
+                <mj-text font-size="12px" font-family="Arial"
+                    padding-left="100px" padding-right="0px"
+                    align="left">        
+                    <a href="https://www.feriavalencia.com/en/avisos-legales/"  style="color:#FFFFFF;">Aviso legal</a><br>
+                    <a href="https://www.feriavalencia.com/politica-de-cookies/" style="color:#FFFFFF;">Política de cookies</a><br>
+                    <a href="https://www.feriavalencia.com/politica-de-privacidad/"  style="color:#FFFFFF;">Política de privacidad</a>
+                </mj-text>
+
+            </mj-column>
+            
+		</mj-section>
+
+        <mj-section background-color="black">
+
+			<mj-column>
+
+                <mj-text font-size="12px" font-family="Arial"
+                color="#FFFFFF" padding-top="0px" padding-bottom="0px"
+                align="center">© Feria Valencia todos los derechos reservados
+                </mj-text>
+            
+            </mj-column>
+
+		</mj-section>
+
+    </mj-body>
+</mjml>
