@@ -1,47 +1,56 @@
 # BBDD_feria
 
-La carpeta **BBDD_feria** está dedicada a la gestión de la base de datos de suscriptores y participantes de la campaña "2 Ruedas" de la Feria Valencia. Aquí encontrarás todo lo necesario para crear, poblar y documentar la base de datos utilizada en la campaña, así como herramientas para automatizar tareas comunes.
+La carpeta **BBDD_feria** está dedicada a la gestión de la base de datos de suscriptores y participantes de la campaña "2 Ruedas" de la Feria Valencia. Además, la misma base de datos se ha reutilizado para el supuesto 1, correspondiente al **Salón del Cómic**, permitiendo así aprovechar la estructura y los scripts para ambos eventos. Aquí encontrarás todo lo necesario para crear, poblar y documentar la base de datos utilizada en ambas campañas, así como herramientas para automatizar tareas comunes.
 
 ---
 
 ## Contenido de la carpeta
 
-### 1. `BBDD_2ruedas.sql`
+### 1. `BBDD_2ruedas.sql` y `BBDD_comic.sql`
 
-Este archivo es un **script SQL** que contiene todas las instrucciones necesarias para crear la base de datos y las tablas asociadas a la campaña "2 Ruedas". Además, incluye sentencias para insertar datos de ejemplo, facilitando así la puesta en marcha y las pruebas.
+Estos archivos son **scripts SQL** que contienen todas las instrucciones necesarias para crear la base de datos y las tablas asociadas tanto a la campaña "2 Ruedas" como al **Salón del Cómic**. Además, incluyen sentencias para insertar datos de ejemplo, facilitando así la puesta en marcha y las pruebas.
 
-**¿Qué hace este script?**
-- Crea la base de datos específica para la campaña.
-- Define la estructura de las tablas (por ejemplo, tabla de suscriptores con campos como nombre, email, edad, etc.).
-- Inserta registros de ejemplo para que puedas probar el funcionamiento de la base de datos desde el primer momento.
-- Puede incluir índices y restricciones para asegurar la integridad de los datos.
+**¿Qué hacen estos scripts?**
+- Crean la base de datos específica para cada campaña.
+- Definen la estructura de las tablas (por ejemplo, tabla de suscriptores con campos como nombre, email, edad, etc.).
+- Insertan registros de ejemplo para que puedas probar el funcionamiento de la base de datos desde el primer momento.
+- Pueden incluir índices y restricciones para asegurar la integridad de los datos.
 
-**¿Cómo se utiliza?**
+**¿Cómo se utilizan?**
 1. Abre tu gestor de bases de datos (MySQL, MariaDB, etc.).
-2. Ejecuta el script con el siguiente comando:
+2. Ejecuta el script correspondiente con el siguiente comando:
    ```sh
    mysql -u tu_usuario -p < BBDD_2ruedas.sql
+   # o
+   mysql -u tu_usuario -p < BBDD_comic.sql
    ```
-3. La base de datos y las tablas quedarán listas para su uso.
+3. La base de datos y las tablas quedarán listas para su uso tanto en la campaña "2 Ruedas" como en el Salón del Cómic.
 
 ---
 
-### 2. `BBDD_suscriptores.sh`
+### 2. Scripts de importación (`.sh`)
 
-Este archivo es un **script en bash** diseñado para automatizar tareas relacionadas con la base de datos de suscriptores.
+Existen **dos scripts en bash** para automatizar tareas relacionadas con la base de datos de suscriptores:  
+- `BBDD_suscr_2ruedas.sh` (para la campaña "2 Ruedas")  
+- `BBDD_suscr_comic.sh` (para el Salón del Cómic)  
 
-**¿Qué puede hacer este script?**
-- Importar automáticamente el archivo SQL para crear la base de datos.
+**Ambos scripts funcionan de la misma manera**, solo cambian los parámetros de conexión y el nombre de la base de datos a la que se conectan.
+
+**¿Qué pueden hacer estos scripts?**
+- Importar automáticamente un archivo CSV de suscriptores a la base de datos correspondiente.
 - Facilitar la administración sin necesidad de acceder manualmente al gestor de bases de datos.
 
-**¿Cómo se utiliza?**
+**¿Cómo se utilizan?**
 1. Asegúrate de tener permisos de ejecución:
    ```sh
-   chmod +x BBDD_suscriptores.sh
+   chmod +x BBDD_suscr_2ruedas.sh
+   chmod +x BBDD_suscr_comic.sh
    ```
-2. Ejecuta el script:
+2. Ejecuta el script correspondiente:
    ```sh
-   ./BBDD_suscriptores.sh <archivo.csv>
+   ./BBDD_suscr_2ruedas.sh <archivo.csv>
+   # o
+   ./BBDD_suscr_comic.sh <archivo.csv>
    ```
 3. Sigue las instrucciones que aparecerán en pantalla o revisa el propio script para ver las opciones disponibles.
 
@@ -68,4 +77,4 @@ Esta carpeta contiene **capturas de pantalla** que documentan visualmente el pro
 
 ## Notas finales
 
-Esta carpeta es esencial para la correcta gestión y documentación de la base de datos de la campaña "2 Ruedas" de la Feria Valencia. 
+Esta carpeta es esencial para la correcta gestión y documentación de la base de datos de la campaña "2 Ruedas" y del **Salón del Cómic** de la Feria Valencia.

@@ -27,7 +27,7 @@ Bienvenido/a a la carpeta de automatización de emails. Aquí encontrarás todo 
 3. Elige la plantilla MJML que quieras usar (puedes modificarla para que quede a tu gusto).
 4. Abre la terminal en esta carpeta y ejecuta:
    ```sh
-   node sendEmails.js suscriptores.csv ../Supuesto4/2Ruedas.mjml
+   node sendEmails.js suscriptores.csv ../Supuesto4/Supuesto.mjml
    ```
    (Recuerda cambiar la ruta de la plantilla si usas otra).
 

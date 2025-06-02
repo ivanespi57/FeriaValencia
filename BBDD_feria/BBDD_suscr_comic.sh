@@ -3,7 +3,7 @@
 DB_HOST="localhost"
 DB_USER="usuario_app"
 DB_PASS="tu_contraseña_fuerte_aqui"
-DB_NAME="marketing_db"
+DB_NAME="ComicFeria"
 
 if [ -z "$1" ]; then
 	echo "Uso: $0 <ruta_al_archivo_csv>"
