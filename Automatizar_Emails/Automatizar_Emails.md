@@ -8,7 +8,6 @@ Bienvenido/a a la carpeta de automatización de emails. Aquí encontrarás todo 
   Este script en Node.js se encarga de:
   - Leer la lista de personas a las que quieres escribir (desde un archivo CSV).
   - Personalizar el mensaje para cada persona (por ejemplo, poniendo su nombre en el saludo).
-  - Convertir la plantilla MJML en un email bonito y compatible con todos los dispositivos.
   - Enviar el correo a cada destinatario usando Nodemailer.
   - Mostrarte en la terminal cómo ha ido el proceso.
 
@@ -17,8 +16,8 @@ Bienvenido/a a la carpeta de automatización de emails. Aquí encontrarás todo 
   Debes poner una fila por persona, con estos datos:
   - `nombre`: El nombre de la persona
   - `email`: Su dirección de correo electrónico
-  - `edad`: Edad (opcional, por si quieres personalizar más)
-  - `idioma`: Idioma preferido (opcional)
+  - `edad`: Edad
+  - `idioma`: Idioma preferido
 
 ## ¿Cómo lo uso?
 
